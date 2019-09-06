@@ -11,6 +11,7 @@ import Foundation
 class ViewModel {
     
     //Truth
+    
     private let truths = [
         "What are you most self-conscious about?",
         "What would you do if you were the opposite sex for a month?",
