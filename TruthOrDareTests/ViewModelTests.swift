@@ -37,7 +37,6 @@ class ViewModelTests: QuickSpec {
                 }
 
                 it("should have correct dares") {
-                    
                     expect(viewModel.getDare(for: 0)).to(equal("For a guy, put on makeup. For a girl, wash off your make up."))
                     expect(viewModel.getDare(for: 1)).to(equal("Dance with no music for 1 minute."))
                     expect(viewModel.getDare(for: 2)).to(equal("Try to drink a glass water while standing on your hands."))
