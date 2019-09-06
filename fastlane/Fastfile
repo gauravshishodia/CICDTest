@@ -20,7 +20,7 @@ platform :ios do
   lane :CI do
     # add actions here: https://docs.fastlane.tools/actions
       run_tests(project: "TruthOrDare.xcodeproj",
-      devices: ["iPhone 6s"],
+      devices: ["iPhone 6s", "iPhone 7", "iPhone X"],
       scheme: "TruthOrDare")
   end
 end
